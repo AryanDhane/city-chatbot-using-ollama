@@ -34,8 +34,8 @@ if st.button(" Get information "):
                 ("user", "Tell me a information of {City} in 4 bulleted points in {category} and If you don't know the answer please Say I don't have any information about City/category")
                 ])
 
-                llm = ChatOllama(model="llama3.2:latest")
-                # llm = GoogleGenerativeAI(model="gemini-2.5-pro")
+                # llm = ChatOllama(model="llama3.2:latest")
+                llm = GoogleGenerativeAI(model="gemini-2.5-pro")
 
                 chain = prompt | llm
 
