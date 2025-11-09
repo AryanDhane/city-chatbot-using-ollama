@@ -13,7 +13,7 @@ st.set_page_config(page_title="Information ", page_icon="🎯")
 
 st.title(" Information about City using langchain + ollama")
 
-st.write(" Enter a City name and category (e.g., Information, location) to get more information about it. ")
+st.write(" Enter a City name and category (e.g., Information, location, temples) to get more information about it. ")
 
 #--------------User Input Section--------------------------------
 
